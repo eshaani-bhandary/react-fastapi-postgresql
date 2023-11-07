@@ -15,7 +15,7 @@ spec:
       containers:
         - name: backend
           image: 3a7jouokyffroregistry.azurecr.io/ebhanda/backend:latest
-          imagePullPolicy: Always
+          imagePullPolicy: "Always"
           ports:
             - containerPort: 8000
           env:
