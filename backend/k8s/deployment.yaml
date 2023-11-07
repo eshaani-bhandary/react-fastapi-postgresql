@@ -20,7 +20,7 @@ spec:
             - containerPort: 8000
           env:
             - name: DATABASE_URL
-              valueForm:
+              valueFrom:
                 secretKeyRef:
                   name: db-url
                   key: url
