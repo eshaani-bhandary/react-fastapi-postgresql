@@ -13,8 +13,8 @@ on:
 env:
   REGISTRY: 3a7jouokyffroregistry.azurecr.io
   REGISTRY_USER: 3a7jouokyffroregistry
-  IMAGE_NAME: palansa/frontend:latest
-  NAMESPACE: palansa
+  IMAGE_NAME: ebhanda/frontend:latest
+  NAMESPACE: ebhanda
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
